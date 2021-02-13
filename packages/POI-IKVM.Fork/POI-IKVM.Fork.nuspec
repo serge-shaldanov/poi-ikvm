@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>poi-ikvm</id>
-    <version>3.17.0.1</version>
+    <id>POI-IKVM.Fork</id>
+    <version>4.1.0.1</version>
 	<title>Apache POI</title>
-    <authors>Koustubh Moharir</authors>
-    <owners>Koustubh Moharir</owners>
+    <authors>Sergey Shaldanov, Koustubh Moharir</authors>
+    <owners>Sergey Shaldanov</owners>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/koustubhmoharir/poi-ikvm</projectUrl>
+    <projectUrl>https://github.com/serge-shaldanov/poi-ikvm</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Apache POI compiled for .NET with IKVM.NET</description>
-    <releaseNotes>Signed and set version and fileversion properties on the dll.</releaseNotes>
-    <copyright>Copyright 2017</copyright>
+    <releaseNotes>Fork of the project https://github.com/koustubhmoharir/poi-ikvm with an updated version of Apache POI.</releaseNotes>
+    <copyright>Copyright 2021</copyright>
     <tags>POI</tags>
     <dependencies>
 	  <group targetFramework=".NETFramework4.0">

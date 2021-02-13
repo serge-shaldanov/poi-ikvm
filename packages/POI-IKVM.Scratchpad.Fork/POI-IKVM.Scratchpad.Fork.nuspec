@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>POI-IKVM.Scratchpad.Fork</id>
+    <version>4.1.0.1</version>
+	<title>Apache POI (Scratchpad)</title>
+    <authors>Sergey Shaldanov, Koustubh Moharir</authors>
+    <owners>Sergey Shaldanov</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/serge-shaldanov/poi-ikvm</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Apache POI compiled for .NET with IKVM.NET</description>
+    <releaseNotes>Fork of the project https://github.com/koustubhmoharir/poi-ikvm with an updated version of Apache POI and included support for old binary office formats.</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>POI,Scratchpad</tags>
+    <dependencies>
+	  <group targetFramework=".NETFramework4.0">
+        <dependency id="IKVM" version="8.1.5717.0" />
+	  </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\**" target="lib" />
+  </files>
+</package>

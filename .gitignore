@@ -1,5 +1,5 @@
 /ikvm
 /nupkgs
 /poi*
-/package/lib
+/packages/*/lib
 /nuget.exe
